@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+        .container{
+            width: 90%;
+            margin: auto;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        h1{
+            color: red;
+        }
+        p {
+            background-color: #ddd;
+            border: 1px solid #333;
+            cursor: pointer;
+            width: 150px;
+            padding: 6px 18px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1 id="result"></h1>
+    <div class="container">
+        <p onclick="checkPrime()">Check Prime</p>
+        <p onclick="checkPalindrome()">Check Palindrome</p>
+        <p onclick="checkLY()">Check Leap Year</p>
+        <p onclick="calFact()">Calculate Factorial</p>
+        <p onclick="countWord()">Word counter</p>
+        <p onclick="sortNum()">Sort Number</p>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
